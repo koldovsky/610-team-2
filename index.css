@@ -2,3 +2,74 @@
 font-family: 'Great Vibes', cursive;
 font-family: 'Prata', serif;
 font-family: 'Rubik', sans-serif; */
+
+/* Додав поки що такий колір, щоб було видно заголовки */
+body {
+    background-color: #6b3600;
+}
+
+/* ці властивості підходять для заголовків та підзаголовків наших блоків */
+.section__title {
+    color: #c8693a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+.section__subtitle {
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.faq__item, .features__title, .footer__title {
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.faq__text, .features__rext {
+    color: #898082;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section__text {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form__text {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.form__button {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    background-color: #c8693a;
+}
+
+.footer__address { 
+    color: #898082;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+}
