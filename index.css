@@ -4,3 +4,62 @@
     font-family: "Great Vibes", sans-serif;
 
 }
+
+/* Solomiya beginning */
+:root {
+    background-color: #261e1c;
+    color: white;
+}
+
+.title {
+    font-size: 26px;
+    color: #c8693a;
+    font-family: Great Vibes, cursive;
+}
+
+.subtitle {
+    font-family: Prata, serif;
+    font-size: 41px;
+    font-weight: inherit;
+}
+
+.texts {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+}
+
+.example {
+    color: rgb(137,128,130);
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+li::before{
+    content: '— ';
+    color: #c8693a;
+}
+
+.wine-example {
+    font-size: 22px;
+    font-family: Prata, serif;
+    font-weight: inherit;
+}
+
+.wine-name,
+.price {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.available {
+    color: #61a854;
+}
+
+.wine-code {
+    font-family: Great Vibes, cursive;
+    font-size: 26px;
+    font-weight: inherit;
+}
+/* Solomiya end */
