@@ -396,11 +396,6 @@ header .grid__grade .grid__text {
     font-family: 'Rubik',sans-serif;
     font-size: 16px;
 }
-div .clear__site{
-    margin: 100px;
-    padding: 100px;
-    display: block;
-}
  @media (min-witdh:500px){
     div .clear__site{
     display: flex;
