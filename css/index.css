@@ -360,7 +360,7 @@ header .nav__menu a {
     color: rgb(255,255,255);
     font-weight: 800;
 }
-header h5 .grid__h{
+header .grid__inner .text__h{
     font-family: 'Prata', sans-serif;
     font-size: 22px;
     color:rgb(255,255,255)
