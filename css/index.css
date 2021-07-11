@@ -231,6 +231,10 @@ body {
     line-height: 22px;
 }
 
+.wrapper-testimonials {
+    text-align: center;
+  }
+
 .wrapper-question {
     display: grid;
     grid-template-columns: 1fr 1fr;
