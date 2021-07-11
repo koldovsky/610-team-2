@@ -279,12 +279,12 @@ header .nav__menu a {
     font-family: 'Great Vibes',  sans-serif;
     font-size: 28px;
 }
-.content__words{
+.text__big{
     color:rgb(255,255,255);
     font-family: 'Prata', sans-serif;
     font-size: 84px;
 }
-.content__letter{
+.text__small{
     color: rgb(255,255,255);
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
