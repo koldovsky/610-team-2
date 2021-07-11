@@ -263,3 +263,144 @@ body {
     align-items: center;
     border-bottom: 1px solid #515369;
   }
+  /* Dmytro beginning */
+header .nav__menu a {
+    color: rgb(255,255,255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.content__title{
+    color:#c8693a;
+    font-family: 'Great Vibes',  sans-serif;
+    font-size: 28px;
+}
+.content__words{
+    color:rgb(255,255,255);
+    font-family: 'Prata', sans-serif;
+    font-size: 84px;
+}
+.content__letter{
+    color: rgb(255,255,255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+  
+@media(min-witdh:500px){
+    header nav {
+        display: flex;
+        flex: 1;
+        justify-content: space-around ;
+    }
+
+} 
+ .buttons {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16.5px;
+    padding: 0.35em 1.2em;
+    /*border: 0.1em solid #f0950c;*/
+    margin: 0 0.3em 0.3em 0;
+    /*border-radius: 0.12em;*/
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: #f0950c;
+    border-radius: 3px;
+}
+.content_page, .buttonl {
+    padding: 0.35em 1.2em;
+    border: rgb(255,255,255,100) ;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+}
+/*a.content_page, a:hover {
+    color: #000000;
+    background-color: #f0950c;
+    cursor: pointer;*/
+    
+
+/*.content_page,   a {
+    border-color: black;
+    color: black;
+}*/
+  
+/* .content_page  a:hover {
+    background-color: black;
+    color: white;
+}*/
+.grid__natural .text__h{
+    font-family: 'Prata',  sans-serif;
+    font-size: 22px;
+    color:rgb(255,255,255)
+
+}
+.grid__events .bar{
+    height: 2px;
+    width: 15%;
+    background-color: #c8693a;
+}
+.grid__text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: rgb(137,128,130);
+} 
+.grid__inner, a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15 px;
+    color: rgb(255,255,255);
+    font-weight: 800;
+}
+header h5 .grid__h{
+    font-family: 'Prata', sans-serif;
+    font-size: 22px;
+    color:rgb(255,255,255)
+}
+header .grid__natural .text__h{
+    color:rgb(255,255,255); 
+    font-family: 'Prata', sans-serif;
+    font-size: 22px;
+     
+}
+.grid__natural .bar{
+    height: 2px;
+    width: 15%;
+    background-color: #c8693a;
+}
+header .grid__natural .grid__text{
+    color:rgb(137,128,130);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+header .grid__grade .text__h{
+    color: rgb(255,255,255);
+    font-family: 'Prata', sans-serif;
+    font-size: 22px;
+}
+header .grid__grade .bar{
+    height: 2px;
+    width: 15%;
+    background-color: #c8693a;
+}
+header .grid__grade .grid__text {
+    color:rgb(137,128,130);
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+}
+div .clear__site{
+    margin: 100px;
+    padding: 100px;
+    display: block;
+}
+ @media (min-witdh:500px){
+    div .clear__site{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+}
