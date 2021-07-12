@@ -449,3 +449,11 @@ header .grid__grade .grid__text {
     justify-content: space-between;
 }
 }
+
+/* main first section part*/
+
+.bottle-features-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
