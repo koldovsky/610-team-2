@@ -20,6 +20,7 @@
 
 .title {
     font-size: 26px;
+    line-height: 30px;
     color: var(--title-color);
     font-family: 'Great Vibes', cursive;
 }
@@ -28,12 +29,14 @@
     font-family: 'Prata', serif;
     font-size: 41px;
     font-weight: inherit;
+    line-height: 54px;
 }
 
 .texts {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     display: block;
+    line-height: 30px;
 }
 
 .example {
@@ -41,6 +44,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     list-style-type: none;
+    line-height: 25px;
 }
 
 li::before{
@@ -52,6 +56,7 @@ li::before{
     font-size: 22px;
     font-family: 'Prata', serif;
     font-weight: inherit;
+    line-height: 33px;
 }
 
 .wine-name,
@@ -137,15 +142,29 @@ li::before{
 }
 
 .timeless-classic {
-    background-image: url("../img/background-timeless-classic.webp");
+    margin-top: 30px;
+    min-height: 500px;
+    width: 370px;
+    height: 742px;
+    line-height: 26px;
     text-align: left;
     display: block;
+    justify-content:space-evenly;
+    padding: 90px 15px 100px 15px;
+    margin-left: 50rem;
+}
+
+.timeless-classic-background {
+    background-image: url("../img/background-timeless-classic.webp");
+    background-size: cover;
+    background-position: center;
 }
 
 .history {
     background-image: url("../img/background-history.webp");
     text-align: left;
-    
+    min-height: 50px;
+    position: absolute;
     vertical-align: baseline;
 }
 
