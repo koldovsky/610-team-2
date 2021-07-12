@@ -451,11 +451,17 @@ header .grid__grade .grid__text {
 }
 
 /* main first section part*/
+/*
+.wine-bottle-feature-img {
+    max-height: 450px;
+    
+}*/
 
-.wine-features-container {
+.wine-feature-description {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
+    
 }
 
 .wine-history-container {
