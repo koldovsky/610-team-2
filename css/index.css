@@ -452,8 +452,14 @@ header .grid__grade .grid__text {
 
 /* main first section part*/
 
-.bottle-features-container {
+.wine-features-container {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.wine-history-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
