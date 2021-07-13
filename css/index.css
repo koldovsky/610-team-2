@@ -3,13 +3,17 @@ h3,
 h4,
 h5,
 h6,
-p {
+ * p {
   padding: 0;
   margin: 0;
 }
 
 * {
   box-sizing: border-box;
+}
+
+header nav {
+    background-color: rgb(0, 0, 0, 0.54)
 }
 
 :root {
@@ -23,6 +27,34 @@ p {
     --prata-font: "Prata", serif;
     --rubik-font: "Rubik", sans-serif;
 }
+
+header nav {
+    background-color: rgb(0, 0, 0, 0.54)
+}
+
+.main__page {
+    align-items: center;
+    background-image: url("../img/main-image.webp");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    justify-content: center;
+    max-width: 8-00%;
+    padding: 10px;
+    background-repeat: 1;
+}
+
+.grid__inner {
+    display: block;
+}
+
+.grid__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+
 
 .container {
     width: 100%;
@@ -338,37 +370,46 @@ li::before{
 /* Solomiya end */
 
   /* Dmytro beginning */
+/*header .section {
+    max-width: 980px;
+    margin: auto;
+}*/
+
+header .logo__inner a {
+    display: block;
+}
+
 header .nav__menu a {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     text-decoration: none;
 }
-.content__title{
-    color:#c8693a;
-    font-family: 'Great Vibes',  sans-serif;
+
+header .nav__menu a:hover {
+    /*background: #c8693a;*/
+    color: #c8693a;
+}
+
+.content__title {
+    color: #c8693a;
+    font-family: 'Great Vibes', sans-serif;
     font-size: 28px;
 }
-.text__big{
-    color:rgb(255,255,255);
+
+.text__big {
+    color: rgb(255, 255, 255);
     font-family: 'Prata', sans-serif;
     font-size: 84px;
 }
-.text__small{
-    color: rgb(255,255,255);
+
+.text__small {
+    color: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
 }
-  
-@media(min-witdh:500px){
-    header nav {
-        display: flex;
-        flex: 1;
-        justify-content: space-around ;
-    }
 
-} 
- .buttons {
+.buttons {
     font-family: 'Rubik', sans-serif;
     font-size: 16.5px;
     padding: 0.35em 1.2em;
@@ -382,9 +423,10 @@ header .nav__menu a {
     background-color: #f0950c;
     border-radius: 3px;
 }
-.content_page, .buttonl {
+
+.buttonl {
     padding: 0.35em 1.2em;
-    border: rgb(255,255,255,) ;
+    border: rgb(255, 255, 255, );
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     color: #ffffff;
@@ -393,85 +435,97 @@ header .nav__menu a {
     transition: color 0.7s;
     background-color: transparent;
 }
-/*a.content_page, a:hover {
-    color: #000000;
-    background-color: #f0950c;
-    cursor: pointer;*/
-    
 
-/*.content_page,   a {
-    border-color: black;
-    color: black;
-}*/
-  
-/* .content_page  a:hover {
-    background-color: black;
-    color: white;
-}*/
-.grid__natural .text__h{
-    font-family: 'Prata',  sans-serif;
-    font-size: 22px;
-    color:rgb(255,255,255)
-
+.logo__inner a {
+    width: 600px;
 }
-.grid__events .bar{
+
+.horizontal__space {
+    width: 300px;
+}
+
+header .nav__menu a {
+    display: block;
+    text-decoration: none;
+}
+
+header nav div {
+    display: flex;
+}
+
+header#main nav .nav__menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid__natural .text__h {
+    font-family: 'Prata', sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255)
+}
+
+.grid__events .bar {
     height: 2px;
     width: 15%;
     background-color: #c8693a;
 }
+
 .grid__text {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    color: rgb(137,128,130);
-} 
-.grid__inner, a {
+    color: rgb(137, 128, 130);
+}
+
+.grid__inner,
+a {
     font-family: 'Rubik', sans-serif;
     font-size: 15 px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-weight: 800;
 }
-header .grid__inner .text__h{
+
+header .grid__inner .text__h {
     font-family: 'Prata', sans-serif;
     font-size: 22px;
-    color:rgb(255,255,255)
+    color: rgb(255, 255, 255)
 }
-header .grid__natural .text__h{
-    color:rgb(255,255,255); 
+
+header .grid__natural .text__h {
+    color: rgb(255, 255, 255);
     font-family: 'Prata', sans-serif;
     font-size: 22px;
-     
 }
-.grid__natural .bar{
+
+.grid__natural .bar {
     height: 2px;
     width: 15%;
     background-color: #c8693a;
 }
-header .grid__natural .grid__text{
-    color:rgb(137,128,130);
+
+header .grid__natural .grid__text {
+    color: rgb(137, 128, 130);
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
-header .grid__grade .text__h{
-    color: rgb(255,255,255);
+
+header .grid__grade .text__h {
+    color: rgb(255, 255, 255);
     font-family: 'Prata', sans-serif;
     font-size: 22px;
 }
-header .grid__grade .bar{
+
+header .grid__grade .bar {
     height: 2px;
     width: 15%;
     background-color: #c8693a;
 }
+
 header .grid__grade .grid__text {
-    color:rgb(137,128,130);
-    font-family: 'Rubik',sans-serif;
+    color: rgb(137, 128, 130);
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
-}
- @media (min-witdh:500px){
-    div .clear__site{
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-}
 }
 
 /* main first section part*/
