@@ -453,9 +453,10 @@ header .grid__grade .grid__text {
 /* main first section part*/
 /*
 .wine-bottle-feature-img {
-    max-height: 450px;
+    height: 170px;
+    width: 170px;
     
-}*/
+} */
 
 .wine-feature-description {
     width: 100%;
@@ -468,4 +469,30 @@ header .grid__grade .grid__text {
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+
+.wine-bottles-thematic-picture {
+    max-width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.history-subtitles {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: Prata, serif;
+    font-weight: 400;
+    font-style: none;
+    letter-spacing: -.02em;
+}
+
+.history-text {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: rgb(137,128,130);
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    
 }
