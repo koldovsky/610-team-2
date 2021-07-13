@@ -466,9 +466,17 @@ header .grid__grade .grid__text {
 }
 
 .wine-history-container {
+    justify-content:space-around;
+    min-height: 300px;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+   
+}
+
+.history-number {
+    color:#f0950c;
 }
 
 .wine-bottles-thematic-picture {
