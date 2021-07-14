@@ -667,9 +667,6 @@ header .grid__grade .grid__text {
     margin-left: 25px;
     text-align: start;
 }
-.features__item:first-child {
-    margin-left: 0;
-}
 
 .features-image {
     fill: var(--secondary-color);
