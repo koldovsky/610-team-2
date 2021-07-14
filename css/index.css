@@ -531,20 +531,44 @@ header .grid__grade .grid__text {
 /* main first section part*/
 /*
 .wine-bottle-feature-img {
-    height: 170px;
-    width: 170px;
+   
     
-} */
+    
+} 
+*/
+.w-section {
+padding: 50px 0 100px 0;
 
-.feature-block-description {
-    margin: 0 160px;
-    padding: 0 15px;
 }
 
-.wine-feature-description {
+.feature-container {
+    margin: 0 160px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+}
+
+.w-section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wine-bottle-feature-img img {
+    max-width: 370px;
+}
+
+.feature-content {
+    
+}
+
+.w-feature-text {
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    
+    
     
 }
 
