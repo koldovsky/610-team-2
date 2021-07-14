@@ -1,0 +1,175 @@
+:root {
+    background-color: #261e1c;
+    color: white;
+    --title-color: #c8693a;
+    --text-color: rgb(137,128,130);
+}
+
+.shop-wine-name {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    font-weight: inherit;
+}
+
+.shop-price {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.available {
+    font-size: 19px;
+    color: #61a854;
+}
+
+.wine-code {
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;
+    font-weight: inherit;
+}
+
+.storage-wine-img { 
+    width: 100%;
+    height: 100%;
+}
+
+.small-storage-wine-img { 
+    width: 95px;
+    height: 95px;
+}
+
+.devider-phone {
+    width: 100%;
+    height: 1px;
+    margin: 24px 0;
+    background: #edf0f5;
+}
+
+.storage-selection {
+    display: flex;
+}
+
+select {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.big-chart {
+    background-color: var(--title-color);
+    border: var(--title-color);
+    border-radius: 2px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.store-homepage {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.image-carusel-div {
+    display: inline-block;
+}
+
+.storage-wine-img {
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: inherit;
+}
+
+.small-storage-wine-img {
+    display: block;
+    width: 20%;
+    height: inherit;
+}
+
+.pinot-noir {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-div {
+    display: block;
+    text-align: left;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.tabs {
+    margin-top: 30px;
+}
+    
+.tabs>input[type="radio"] {
+    display: none;
+}
+    
+.tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    padding-top: 10px;
+    font-size: 16px;
+}
+    
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    border-width: 100%;
+}
+    
+.tabs>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #261e1c;
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+    
+.tabs>label:not(:first-of-type) {
+    border-left: none;
+}
+    
+.tabs>input[type="radio"]:checked+label {
+    background-color: #261e1c;
+    border-bottom: 1px solid blue;
+}
+
+@media (max-width: 765px) {
+    .pinot-noir {
+        display: block;
+    }
+
+    .text-div {
+        text-align: left;
+        width: 100%;
+    }
+
+    .storage-wine-img {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+}
