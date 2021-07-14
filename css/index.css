@@ -48,7 +48,7 @@
     line-height: 25px;
 }
 
-li::before{
+.example::before{
     content: '— ';
     color: var(--title-color);
 }
@@ -73,52 +73,13 @@ li::before{
     color: silver;
 }
 
-.shop-wine-name {
-    font-family: 'Prata', serif;
-    font-size: 22px;
-    font-weight: inherit;
-}
-
-.shop-price {
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.available {
-    color: #61a854;
-}
-
-.wine-code {
-    font-family: 'Great Vibes', cursive;
-    font-size: 26px;
-    font-weight: inherit;
-}
-
 .wine-image {
     width:100%;
     height: 100%;
     padding-top: 30px;
 }
 
-.storage-wine-img { 
-    width: 415px;
-    height: 415px;
-}
-
-.small-storage-wine-img { 
-    width: 95px;
-    height: 95px;
-}
-
-.devider-phone {
-    width: 100%;
-    height: 1px;
-    margin: 24px 0;
-    background: #edf0f5;
-}
-
-.big-chart, .chart {
+.chart {
     background-color: var(--title-color);
     border: var(--title-color);
     border-radius: 2px;
@@ -241,6 +202,7 @@ li::before{
     margin-top: 30px;
     display:inline-block;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .award {
@@ -309,6 +271,10 @@ li::before{
     .history .subtitle {
         font-size: 58px;
         line-height: 70px;
+    }
+
+    .award-description {
+        padding-left: 20px;
     }
 }
 /* Solomiya end */
