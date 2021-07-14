@@ -458,6 +458,11 @@ header .grid__grade .grid__text {
     
 } */
 
+.feature-block-description {
+    margin: 0 160px;
+    padding: 0 15px;
+}
+
 .wine-feature-description {
     width: 100%;
     display: grid;
