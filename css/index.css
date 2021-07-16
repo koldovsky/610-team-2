@@ -568,17 +568,30 @@ header .grid__grade .grid__text {
 /* main first section part*/
 /*
 .wine-bottle-feature-img {
-    height: 170px;
-    width: 170px;
+    
     
 } */
 
-.wine-feature-description {
-    width: 100%;
+.w-section {
+    padding: 50px 0 100px 0;
+}
+
+.feature-container {
+    margin: 0 160px;
+    padding: 0 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
+
+.wine-bottle-feature-img img {
+    max-width: 370px;
+}
+
+/*
+.feature-content {
+
+}*/
 
 .w-history-container {
     justify-content:space-around;
@@ -601,8 +614,6 @@ header .grid__grade .grid__text {
     margin-top: 30px;
     margin: 0 150px;
 }
-
-
 
 .history-subtitles {
     font-size: 22px;
