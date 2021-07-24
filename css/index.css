@@ -3,13 +3,13 @@ h3,
 h4,
 h5,
 h6,
- * p {
-  padding: 0;
-  margin: 0;
+* p {
+    padding: 0;
+    margin: 0;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header nav {
@@ -31,7 +31,21 @@ header nav {
 header nav {
     background-color: rgb(0, 0, 0, 0.54)
 }
+.content__section{
+    display: flex;
+    justify-content:space-around;
 
+}
+.content__section{
+    margin: 200px 20px 20px 20px ;
+    
+}
+.text__small{
+    line-height: 40px;
+}
+.content__buttons{
+    margin-top: 30px;
+}
 .main__page {
     align-items: center;
     background-image: url("../img/main-image.webp");
@@ -42,6 +56,8 @@ header nav {
     max-width: 8-00%;
     padding: 10px;
     background-repeat: 1;
+    background-attachment: fixed;
+     
 }
 
 .grid__inner {
@@ -54,19 +70,18 @@ header nav {
     grid-gap: 5px;
 }
 
-
-
 .container {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
-  }
+}
+
 
 /*Додала такий клас для коротких написів*/
+
 .short-inscription {
     color: #c8693a;
     font-family: "Great Vibes", sans-serif;
-
 }
 
 .logo {
@@ -104,7 +119,7 @@ header nav {
     line-height: 25px;
 }
 
-li::before{
+li::before {
     content: '— ';
     color: var(--secondary-color);
 }
@@ -152,17 +167,17 @@ li::before{
 }
 
 .wine-image {
-    width:100%;
+    width: 100%;
     height: 100%;
     padding-top: 30px;
 }
 
-.storage-wine-img { 
+.storage-wine-img {
     width: 415px;
     height: 415px;
 }
 
-.small-storage-wine-img { 
+.small-storage-wine-img {
     width: 95px;
     height: 95px;
 }
@@ -174,7 +189,8 @@ li::before{
     background: #edf0f5;
 }
 
-.big-chart, .chart {
+.big-chart,
+.chart {
     background-color: var(--secondary-color);
     border: var(--secondary-color);
     border-radius: 2px;
@@ -186,7 +202,8 @@ li::before{
     font-size: 16px;
 }
 
-.big-chart:hover, .chart:hover {
+.big-chart:hover,
+.chart:hover {
     background-color: #9e5029;
     cursor: pointer;
 }
@@ -205,7 +222,7 @@ li::before{
 
 .award-description {
     font-size: 16px;
-    font-family: 'Rubik' ,sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: var(--gray-color);
 }
@@ -245,7 +262,6 @@ li::before{
     line-height: 85px;
 }
 
-
 .history-background {
     background-image: url("../img/background-history.webp");
     background-size: cover;
@@ -275,7 +291,7 @@ li::before{
     padding-bottom: 100px;
 }
 
-.craft-wines .subtitle{
+.craft-wines .subtitle {
     line-height: 44px;
 }
 
@@ -295,7 +311,7 @@ li::before{
 .awards {
     text-align: center;
     margin-top: 30px;
-    display:inline-block;
+    display: inline-block;
     padding-top: 30px;
 }
 
@@ -303,7 +319,7 @@ li::before{
     display: block;
 }
 
-.award-img{
+.award-img {
     width: 120px;
     height: 65px;
 }
@@ -334,7 +350,6 @@ li::before{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-
     .wine-image {
         width: 100%;
         height: 100%;
@@ -347,36 +362,36 @@ li::before{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     }
-
     .wine-image {
         width: 100%;
         height: 100%;
     }
-
     .award-img {
         width: 100%;
         height: 100%;
     }
-
     .award-example {
         display: inherit;
     }
-
     .history .subtitle {
         font-size: 58px;
         line-height: 70px;
     }
 }
+
+
 /* Solomiya end */
 
-  /* Dmytro beginning */
-/*header .section {
-    max-width: 980px;
-    margin: auto;
-}*/
+
+/* Dmytro beginning */
+
 
 header .logo__inner a {
     display: block;
+}
+header{
+    height: 100vh;
+    
 }
 
 header .nav__menu a {
@@ -412,28 +427,38 @@ header .nav__menu a:hover {
 .buttons {
     font-family: 'Rubik', sans-serif;
     font-size: 16.5px;
-    padding: 0.35em 1.2em;
+    padding: 0.55em 1.2em;
     /*border: 0.1em solid #f0950c;*/
     margin: 0 0.3em 0.3em 0;
     /*border-radius: 0.12em;*/
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    transition: color 0.7s;
-    background-color: #f0950c;
-    border-radius: 3px;
+    background-color:var(--secondary-color);
+    border-radius: 1.5px;
+}
+.buttons:hover{
+    background:#9e5029;
+    transition: 0.7s;
 }
 
 .buttonl {
     padding: 0.35em 1.2em;
-    border: rgb(255, 255, 255, );
-    margin: 0 0.3em 0.3em 0;
+    border: 2px solid  white;
+    margin-left: 10px;
     border-radius: 0.12em;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    transition: color 0.7s;
     background-color: transparent;
+}
+
+
+.buttonl:hover{
+    color: black;
+    background-color:white;
+    cursor: pointer;
+    transition: color 0.7s;
 }
 
 .logo__inner a {
@@ -445,8 +470,7 @@ header .nav__menu a:hover {
 }
 
 header .nav__menu a {
-    display: block;
-    text-decoration: none;
+text-decoration: none;
 }
 
 header nav div {
@@ -466,6 +490,23 @@ header#main nav .nav__menu {
     color: rgb(255, 255, 255)
 }
 
+.grid__grade {
+    background-image: url('../img/background-phone2.png');
+    background-repeat: no-repeat;
+    
+}
+
+.grid__natural {
+    background-image: url('../img/background-phone1.png');
+    background-repeat: no-repeat;
+}
+
+.grid__events {
+    background-image: url('../img/background-phone.png');
+    background-repeat: no-repeat;
+   
+}
+
 .grid__events .bar {
     height: 2px;
     width: 15%;
@@ -477,6 +518,13 @@ header#main nav .nav__menu {
     font-size: 16px;
     color: rgb(137, 128, 130);
 }
+.grid__inner h5   {
+    margin-top: 500px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;  
+}
+
 
 .grid__inner,
 a {
@@ -528,7 +576,10 @@ header .grid__grade .grid__text {
     font-size: 16px;
 }
 
+
 /* main first section part*/
+
+
 /*
 .wine-bottle-feature-img {
    
@@ -536,9 +587,9 @@ header .grid__grade .grid__text {
     
 } 
 */
-.w-section {
-padding: 50px 0 100px 0;
 
+.w-section {
+    padding: 50px 0 100px 0;
 }
 
 .feature-container {
@@ -546,9 +597,6 @@ padding: 50px 0 100px 0;
     padding: 0 15px;
     display: flex;
     flex-direction: column;
-    
-   
-    
 }
 
 .w-section-header {
@@ -561,27 +609,21 @@ padding: 50px 0 100px 0;
     max-width: 370px;
 }
 
-
-
 .w-feature-text {
     width: 100%;
-    
-    
-    
 }
 
 .wine-history-container {
-    justify-content:space-around;
+    justify-content: space-around;
     min-height: 300px;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 20px;
-   
 }
 
 .history-number {
-    color:#f0950c;
+    color: #f0950c;
 }
 
 .wine-bottles-thematic-picture {
@@ -602,12 +644,11 @@ padding: 50px 0 100px 0;
 .history-text {
     padding-top: 90px;
     padding-bottom: 90px;
-    color: rgb(137,128,130);
+    color: rgb(137, 128, 130);
     font-family: Rubik, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
-    
 }
 
 .have-question {
@@ -667,8 +708,8 @@ padding: 50px 0 100px 0;
     right: 20px;
     font-size: 24px;
 }
-  
-  .have-question__list__item.active .list__title::before {
+
+.have-question__list__item.active .list__title::before {
     content: "\2212";
 }
 
@@ -681,7 +722,6 @@ padding: 50px 0 100px 0;
     height: 0;
     overflow: hidden;
     transition: all 0.3s linear;
-
 }
 
 .have-question__list__item.active .list__text {
@@ -700,7 +740,9 @@ padding: 50px 0 100px 0;
     object-fit: contain;
 }
 
+
 /* Features */
+
 .features {
     display: flex;
     padding: 50px 0 100px;
@@ -744,6 +786,7 @@ padding: 50px 0 100px 0;
     font-weight: 400;
     line-height: 26px;
 }
+
 
 /* footer*/
 
@@ -798,7 +841,6 @@ input {
     font-size: 15px;
     font-weight: 500;
     line-height: 15px;
-
     transition: background 0.2s linear;
 }
 
@@ -853,7 +895,6 @@ input {
     width: 30px;
     height: 30px;
     margin-left: 15px;
-
     border: 1px solid var(--secondary-color);
 }
 
