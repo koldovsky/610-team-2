@@ -13,26 +13,27 @@
     <main>
         <a class="store-homepage" href="#">Store homepage</a><br>
         <div class="pinot-noir">
-            <div class="image-carusel-div">
-                <img class="storage-wine-img" src="img/bottle-pinot-noir.jpg" alt="img of Pinot Noir">
-                <img class="small-storage-wine-img" src="img/bottle-pinot-noir.jpg" alt="little img of Pinot Noir">
+            <div class="img-carousel">
+                <div class="top-pic-and-arrows">
+                    <img id="slideLeft" class="arrow" src="img/left-arrow.svg">
+                    <img id="featured" src="img/bottle-pinot-noir.jpg">
+                    <img id="slideRight" class="arrow" src="img/right-arrow.svg">
+                </div>
+                <div id="slide-wrapper" >
+                    <div id="slider">
+                        <img class="thumbnail active" src="img/bottle-pinot-noir.jpg">
+                    </div>
+                </div>
             </div>
+
             <div class="text-div">
                 <p class="available">In stock</p>
                 <h2 class="shop-wine-name">Pinot Noir</h2>
                 <h3 class="wine-code">Product code 20</h3>
                 <p class="shop-price">12,00USD</p><hr>
                 <div class="deviver-phone"></div>
-                <div class="storage-selection">
-                    <select>
-                        <optgroup label="Count of order">
-                            <option value="one">1</option>
-                            <option value="two">2</option>
-                            <option value="three">3</option>
-                            <option value="four">4</option>
-                            <option value="five">5</option>
-                        </optgroup>
-                    </select>
+                <div class="number-and-button">
+                    <input type="number" min="1" max="150" step="1" value="1">
                     <button class="big-chart" type="button">Add to chart</button>
                 </div>
                 
@@ -51,5 +52,6 @@
             </div>
         </div>
     </main>
+    <script src="js/carousel-for-wine-pages.js"></script>
 </body>
 </html>
