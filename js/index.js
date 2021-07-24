@@ -8,7 +8,7 @@ for (item of accordion) {
         for (element of accordion) {
           element.classList.remove('active');
       }
-      this.classList.toggle('active');
+      this.classList.add('active');
     }
   })
 }
