@@ -986,7 +986,40 @@ input {
     justify-content: space-between;
 }
 
+@media (max-width: 1104px) {
+    .features-title,
+    .footer-part__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+  
+    .footer-part__inner:first-child {
+        padding-right: 15px;
+    }
+}
+
 @media (max-width: 990px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .general-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .general-subtitle {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .general-text {
+        font-size: 15px;
+        line-height: 15px;
+    }
     .shop-bottles {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -996,9 +1029,78 @@ input {
         width: 100%;
         height: 100%;
     }
+
+    .caruosel-wrapper {
+        padding: 0 10px;
+    }
+
+    .have-question-list {
+        padding: 15px;
+    }
+
+    .list__title {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .have-question-image {
+        padding: 0 15px;
+        flex: 1 285px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+    }
+
+    .features__item {
+        margin-left: 0;
+        padding: 15px;
+        width: 50%;
+    }
+
+    .features-image {
+        fill: var(--secondary-color);
+        width: 40px;
+        height: 40px;
+    }
+
+    .join-part__text {
+        margin-top: 25px;
+    }
+
+    .join-part__inner {
+        padding: 0 5px;
+    }
+
+    .join-part__form {
+        max-width: 265px;
+    }
+
+    .footer-part__img {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .instagram-image {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 813px) {
+    .social_item {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+  
+    .social_icon {
+        height: 15px;
+    }
+  }
+
+@media (max-width: 768px) {
     .shop-bottles {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1038,5 +1140,55 @@ input {
     .play-button {
         width: 50px;
         height: 50px;
+    }
+
+    .testimonials__carousel-item {
+        font-size: 14px;
+    }
+    
+    .have-question-list {
+        padding: 0;
+    }
+    
+    .have-question-image {
+        padding: 0 15px;
+        flex: 1 313px;
+    }
+    
+    .have-question__item__img {
+        width: 90%;
+        height: 90%;
+    }
+    
+    .features__item {
+        padding: 15px;
+        width: 100%;
+    }
+    
+      .join-part {
+        flex-wrap: wrap;
+      }
+    
+      .join-part__inner {
+        width: 100%;
+      }
+    
+      .join-part__form {
+        margin-top: 20px;
+        max-width: 100%;
+      }
+    
+    .footer-part__inner {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-part__social {
+        justify-content: center;
+    }
+    
+    .text-divider-text {
+        display: flex;
+        justify-content: center;
     }
 }
