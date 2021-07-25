@@ -57,6 +57,7 @@
 .big-chart:hover {
     background-color: #9e5029;
     cursor: pointer;
+    transition: .6s;
 }
 
 .store-homepage {
@@ -78,7 +79,7 @@
 .text-div {
     display: block;
     text-align: left;
-    max-width: 650px;
+    width: 650px;
     margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
