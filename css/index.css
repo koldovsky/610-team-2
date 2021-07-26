@@ -994,7 +994,7 @@ input {
   
 .social_item:hover {
     cursor: pointer;
-    background-color:var (--dark-secondary-color);
+    background-color: var(--dark-secondary-color);
 }
   
 .social_item:hover .social_icon {
