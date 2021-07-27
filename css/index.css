@@ -89,7 +89,7 @@ header nav {
 }
 .main__page {
     align-items: center;
-    background-image: url("../img/main-image.webp");
+    background-image: url("../img/backgrounds/background-main-page.webp");
     background-position: center;
     background-size: cover;
     height: auto;
@@ -221,18 +221,18 @@ header#main nav .nav__menu {
 }
 
 .grid__grade {
-    background-image: url('../img/background-phone2.png');
+    background-image: url('../img/backgrounds/background-phone2.png');
     background-repeat: no-repeat;
     
 }
 
 .grid__natural {
-    background-image: url('../img/background-phone1.png');
+    background-image: url('../img/backgrounds/background-phone1.png');
     background-repeat: no-repeat;
 }
 
 .grid__events {
-    background-image: url('../img/background-phone.png');
+    background-image: url('../img/backgrounds/background-phone.png');
     background-repeat: no-repeat;
    
 }
@@ -357,10 +357,10 @@ header .grid__grade .grid__text {
     background-position: right;
 }
 .inner__item.red__wine{
-    background-image: url("../img/two-glass-of-wines.jpg");  
+    background-image: url("../img/backgrounds/background-red-wines.jpg");  
 }
 .inner__item.white__wine{
-    background-image: url("../img/foods-and-wines.jpg");
+    background-image: url("../img/backgrounds/background-white-wines.jpg");
        
 }
 
@@ -477,7 +477,7 @@ header .grid__grade .grid__text {
 }
 
 .timeless-classic-background {
-    background-image: url("../img/background-timeless-classic.webp");
+    background-image: url("../img/backgrounds/background-timeless-classic.webp");
     background-size: cover;
     background-position: right;
     width: 100%;
@@ -500,7 +500,7 @@ header .grid__grade .grid__text {
 } */
 
 .history-background {
-    background-image: url("../img/background-history.webp");
+    background-image: url("../img/backgrounds/background-history.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -696,7 +696,7 @@ header .grid__grade .grid__text {
     position: relative;
     padding: 50px 0;
     text-align: center;
-    background-image: url(/img/testimonials-background.jpg);
+    background-image: url(/img/backgrounds/background-testimonials.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
