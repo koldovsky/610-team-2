@@ -338,6 +338,7 @@ header .grid__grade .grid__text {
     display:flex;
     flex-wrap: wrap;
     margin:  0 -15px;
+   
 }
 
 .inner_item_wrapper{
@@ -362,6 +363,17 @@ header .grid__grade .grid__text {
     background-image: url("../img/foods-and-wines.jpg");
        
 }
+
+ 
+.text__inner{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 /*Solomiya beginning*/
 :root {

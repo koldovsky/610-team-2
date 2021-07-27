@@ -261,7 +261,7 @@
             </div>
             <div>
                 <p class="short-inscription general-title">Best deals</p>
-                <h2 class="general-subtitle">Wines to Every Table</h2>
+                <h2 class="general-subtitle" id="deals">Wines to Every Table</h2>
             </div>
             <div>
                 <img class="text-separator" src="img/text-separator.svg" alt="curve-line">
@@ -295,7 +295,7 @@
                 <p>17,00USD</p>
                 <button type="button">Add to cart</button>
             </div>
-            <div class="wine-bottles-thematic-picture">
+            <div class="wine-bottles-thematic-picture" id="history">
                 <img src="https://res2.weblium.site/res/60115ce126eea30022ce1a18/601d53fd1bfcba00216b088d_optimized_1686.webp" alt="bottles of wine">
             </div>
 
@@ -327,7 +327,7 @@
         <div class="timeless-classic-background">
             <div class="empty-timeless-classic"></div>
             <div class="timeless-classic">
-                <p class="general-title">Timeless classic</p>
+                <p class="general-title" id="info">Timeless classic</p>
                 <h3 class="general-subtitle">Traditional Wine Varieties for Connoisseurs</h3>
                 <img class="text-separator" src="img/text-separator.svg" alt="Text separator">
                 <p class="texts general-text">From the very beginning of our winery, we have concentrated on the production of classic wines.</p>
@@ -351,7 +351,7 @@
         <!-- ===Craft wines=== -->
         <div class="craft-wines">
             <div class="craft-wines-text">
-                <p class="general-title">Craft wines</p>
+                <p class="general-title" id="shop">Craft wines</p>
                 <h3 class="general-subtitle">Our Wines</h3>
                 <img class="text-separator" src="img/text-separator.svg" alt="Text separator">
                 <p class="texts general-text">Select your favorite wine and buy it in a couple of clicks.</p>
@@ -416,22 +416,24 @@
             <div class="category__inner">
                 <div class="inner_item_wrapper">
                     <div class="inner__item red__wine" >
-                        <h3>Red Wines</h5>
-                            <div class="bar"></div>
-                            <p> Great selection of red wines for you</p>
-                            <a href=# class="buttons">Shop red wines</a>
+                        <div class="text__inner">
+                            <h3>Red Wines</h3>
+                                <div class="bar"></div>
+                                <p> Great selection of red wines for you</p>
+                                <a href=# class="buttons">Shop red wines</a>
+                        </div>        
                     </div>
                 </div>
                 <div class="inner_item_wrapper">
-                    <div class="inner__item white__wine">
-                        <h3>White Wines</h5>
-                            <div class="bar"></div>
-                            <p>Top white wines for any occasion.</p>
-                            <a href=# class="buttons">Shop white wines</a>
-                    </div>
+                        <div class="inner__item white__wine">
+                                <h3>White Wines</h3>
+                                    <div class="bar"></div>
+                                    <p>Top white wines for any occasion.</p>
+                                    <a href=# class="buttons">Shop white wines</a>
+                    </div>               
                 </div>
                 
-                </div>    
+            </div>    
                 <div class="discount__inner">
                     <img src="../img/background-of-discount.jpg" alt="&&">
                     <h5>Get your 15% personal discount</h5>
@@ -654,7 +656,7 @@
     
                     </div>
                 </div>
-                <div class="footer-part__inner">
+                <div class="footer-part__inner" id="contact">
                     <div class="footer-part__title">Information</div>
                     <div class="text-divider-text">
                         <div class="text-divider"></div>
