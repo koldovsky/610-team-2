@@ -1,4 +1,9 @@
-
+:root {
+    background-color: #261e1c;
+    color: white;
+    --title-color: #c8693a;
+    --text-color: rgb(137,128,130);
+}
 
 .shop-wine-name {
     font-family: 'Prata', serif;
