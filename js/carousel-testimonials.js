@@ -6,14 +6,14 @@ const dots = document.querySelectorAll(".dot");
 let currentSlide = 0;
 
 const activeSlide = n => {
-    for (slide of slides) {
+    for (const slide of slides) {
         slide.classList.remove("carousel-active")
     }
     slides[n].classList.add("carousel-active");
 }
 
 const activeDot = n => {
-    for (dot of dots) {
+    for (const dot of dots) {
         dot.classList.remove("dot-active")
     }
     dots[n].classList.add("dot-active");
