@@ -433,6 +433,8 @@ header .grid__grade .grid__text {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    margin-top: 17px;
+    margin-bottom: 17px;
 }
 
 .wine-name:hover {
@@ -443,6 +445,7 @@ header .grid__grade .grid__text {
     width: 100%;
     height: 100%;
     padding-top: 30px;
+    margin-bottom: 17px;
 }
 
 .chart {
@@ -578,11 +581,14 @@ header .grid__grade .grid__text {
     font-size: 15px;
     font-weight: bold;
     line-height: 15px;
-    margin-top: 15px;
 }
 
 .watch-on-youtube:hover {
     text-decoration: underline;
+}
+
+.link-on-youtube {
+    margin-top: 34px;
 }
 
 .awards {
@@ -596,26 +602,30 @@ header .grid__grade .grid__text {
 .award {
     display: block;
     margin-top: 50px;
+    margin: 20px;
 }
 
 .award-img{
-    margin-top: 18px;
     width: 120px;
     height: 65px;
+    padding-bottom: 10px;
 }
 
 .award-name {
     padding-left: 20px;
     width: 200px;
+    padding-bottom: 40px;
 }
 
 .award-year {
     padding-left: 20px;
     width: 200px;
+    padding-bottom: 40px;
 }
 
 .award-description {
     width: 100%;
+    padding-bottom: 40px;
 }
 
 .award-example {
