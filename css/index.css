@@ -392,7 +392,7 @@ header .grid__grade .grid__text {
 .title {
     font-size: 26px;
     line-height: 20px;
-    color: var(--title-color);
+    color: var(--secondary-color);
     font-family: var(--great-vibes-font);
 }
 
@@ -401,11 +401,6 @@ header .grid__grade .grid__text {
     font-size: 41px;
     font-weight: inherit;
     line-height: 54px;
-}
-
-.logo {
-    width: 176px;
-    height: 44px;
 }
 
 .texts {
