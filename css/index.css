@@ -502,6 +502,10 @@ header .grid__grade .grid__text {
     justify-content: space-around;
 }
 
+.timeless-classic .general-text {
+    line-height: 25px;
+}
+
 .history {
     display: block;
     text-align: left;
