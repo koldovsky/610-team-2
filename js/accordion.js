@@ -1,6 +1,6 @@
 // accordion
 const accordion = document.querySelectorAll('.have-question__list-item');
-for (item of accordion) {
+for (const item of accordion) {
   item.addEventListener('click', function () {
     if (this.classList.contains('active')) {
       this.classList.remove('active');
