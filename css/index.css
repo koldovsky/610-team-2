@@ -74,12 +74,14 @@ h6,
 
 #clock{
     color: var(--secondary-color);
-
-
 }
-header nav {
+
+nav {
     background-color: rgb(0, 0, 0, 0.54)
+       
 }
+
+
 .content__section{
     display: flex;
     justify-content:space-around;
@@ -103,17 +105,15 @@ header nav {
     height: auto;
     justify-content: center;
     max-width: 8-00%;
-    padding: 10px;
     background-repeat: 1;
     background-attachment: fixed;
      
 }
-
-.grid__inner {
-    display: block;
+.grid__page{
+    height: 100vh;
 }
-
 .grid__inner {
+    margin-top: 200px; ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
