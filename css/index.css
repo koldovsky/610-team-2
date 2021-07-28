@@ -61,7 +61,7 @@ h6,
 .general-text {
     margin-top: 20px;
     font-family: var(--rubik-font);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 31px;
 }
@@ -389,6 +389,20 @@ header .grid__grade .grid__text {
     --text-color: rgb(137,128,130);
 }
 
+.title {
+    font-size: 26px;
+    line-height: 20px;
+    color: var(--title-color);
+    font-family: var(--great-vibes-font);
+}
+
+.subtitle {
+    font-family: var(--prata-font);
+    font-size: 41px;
+    font-weight: inherit;
+    line-height: 54px;
+}
+
 .logo {
     width: 176px;
     height: 44px;
@@ -502,11 +516,11 @@ header .grid__grade .grid__text {
     padding-top: 40px;
     padding-left: 20px;
 }
-/* 
+
 .history .subtitle {
     font-size: 71px;
     line-height: 85px;
-} */
+}
 
 .history-background {
     background-image: url("../img/backgrounds/background-history.webp");
@@ -616,24 +630,13 @@ header .grid__grade .grid__text {
     height: 20px;
     margin-bottom: -5px;
 }
-
-
 /*Solomiya end*/
 
-
 /* Dmytro beginning */
-
-
-
-
-
 /* main first section part*/
 
-
 /*
-.wine-bottle-feature-img {
-   
-    
+.wine-bottle-feature-img {  
     
 } 
 */
