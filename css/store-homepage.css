@@ -1,13 +1,64 @@
-:root {
-    background-color: #261e1c;
-    color: white;
-    --title-color: #c8693a;
-    --text-color: rgb(137,128,130);
+body{
+	margin: 60px;
+	font-family: sans-serif;
+	background-color: #261e1c;
 }
 
-.store {
-    margin: 50px 50px 50px 50px;
+:root{
+	box-sizing: border-box;
+    --title-color: #c8693a;
+    color: #ffffff;
 }
+
+li{
+    list-style-type: none;
+}
+
+#itemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-left: -40px;
+}
+
+.holder {
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.holder a {
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.holder a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.holder a.jp-previous { margin-right: 15px; }
+.holder a.jp-next { margin-left: 15px; }
+
+.holder a.jp-current, a.jp-current:hover {
+    color: #c8693a;
+    font-weight: bold;
+}
+
+.holder a.jp-disabled, a.jp-disabled:hover {
+    color: #bbb;
+}
+
+.holder a.jp-current, a.jp-current:hover,
+.holder a.jp-disabled, a.jp-disabled:hover {
+    cursor: default;
+    background: none;
+}
+
+.holder span { margin: 0 5px;}
 
 .store-title, .store-subtitle {
     font-family: 'Prata', serif;
@@ -57,16 +108,14 @@
     transition: .6s;
 }
 
-.store-bottles {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+.products{
+    display: flex;
 }
 
 .products-per-page {
-    margin-top: 30px;
-    display: flex;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
 }
 
 .products-per-page p {
@@ -81,28 +130,18 @@
     margin-top: 20px;
 }
 
-@media (max-width: 990px) {
-    .store-bottles {
+@media (max-width: 890px){
+    .itemContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-
-    .store-wine-image {
-        width: 100%;
-        height: auto;
+        grid-gap: 30px;
     }
 }
 
-@media (max-width: 765px) {
-    .store-bottles {
+@media (max-width: 765px){
+    .itemContainer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
-    }
-
-    .store-image {
-        width: 100%;
-        height: auto;
+        grid-gap: 30px;
     }
 }

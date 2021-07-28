@@ -1,86 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/store-homepage.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <title>Store homepage</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Store homepage</title>
+  <meta name="description" content="items per page">
+  <meta name="keywords" content="jquery, pagination, javascript, plugin" />
+  <meta name="author" content="Luís Almeida">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="css/store-homepage.css">
+  <script type="text/javascript" src="js/jquery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery/highlight.pack.js"></script>
+  <script type="text/javascript" src="js/jquery/tabifier.js"></script>
+  <script src="js/jquery/js.js"></script>
+  <script src="js/jquery/jPages.js"></script>
+  <script src="js/store-items-per-page-pagination.js"></script>
+
 </head>
 <body>
-    <main>
-        <div class="store">
-            <h1 class="store-title">Store homepage</h1>
-            <p class="store-subtitle">Products (8)</p>
-            <div class="store-bottles">
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-cabernet.jpg" alt="img of Cabernet"></a>
+  <div id="container" class="clearfix">
+    <h1 class="store-title">Store homepage</h1>
+    <p class="store-subtitle">Products (8)</p>
+
+      <ul id="itemContainer">
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-cabernet.jpg" alt="img of Cabernet"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Cabernet</p></a>
                     <p class="store-price">17,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
                 </div>
-
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-pinot-grigio.jpg" alt="img of Pinot Grigio"></a>
+            </div>
+          </li>
+          
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-pinot-grigio.jpg" alt="img of Pinot Grigio"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Pinot Grigio</p></a>
                     <p class="store-price">10,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
                 </div>
+            </div>
+          </li>
 
-                <div class="store-bottle">
-                    <a href="pinot-noir.html"><img class="store-wine-image" src="img/bottles/bottle-pinot-noir.jpg" alt="img of Pinot Noir"></a>
+          <li>
+            <div class="item">
+                <a href="pinot-noir.html"><img class="store-wine-image" src="img/bottle-pinot-noir.jpg" alt="img of Pinot Noir"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="pinot-noir.html"><p>Pinot Noir</p></a>
                     <p class="store-price">12,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
                 </div>
+            </div>
+          </li>
 
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-riesling.jpg" alt="img of Riesling"></a>
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-riesling.jpg" alt="img of Riesling"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Riesling</p></a>
                     <p class="store-price">16,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
                 </div>
+            </div>
+          </li>
 
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-sauvignon-blance.jpg" alt="img of Sauvignon Blanc"></a>
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-sauvignon-blance.jpg" alt="img of Sauvignon Blanc"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Sauvignon Blanc</p></a>
                     <p class="store-price">12,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
                 </div>
+            </div>
+          </li>
 
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-soave.jpg" alt="img of Soave"></a>
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-soave.jpg" alt="img of Soave"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Soave</p></a>
                     <p class="store-price">12,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
-                </div> 
-                        
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-syrah.jpg" alt="img of Syrah"></a>
-                    <a class="store-wine-name" href="#"><p>Pinot Noir</p></a>
+                </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-syrah.jpg" alt="img of Syrah"></a>
+                <div class="caption">
+                    <a class="store-wine-name" href="#"><p>Syrah</p></a>
                     <p class="store-price">13,00USD</p>
                  <button class="store-chart" type="button">Buy</button>
                 </div>
-
-                <div class="store-bottle">
-                    <a href="#"><img class="store-wine-image" src="img/bottles/bottle-zifandel.jpg" alt="img of Zifandel"></a>
+            </div>
+          </li>
+          
+          <li>
+            <div class="item">
+                <a href="#"><img class="store-wine-image" src="img/bottle-zifandel.jpg" alt="img of Zifandel"></a>
+                <div class="caption">
                     <a class="store-wine-name" href="#"><p>Zifandel</p></a>
                     <p class="store-price">14,00USD</p>
                     <button class="store-chart" type="button">Buy</button>
-                </div>    
+                </div>
             </div>
-            <div class="products-per-page">
-                <p>Products per page: </p>
-                <select name="number-pages" id="page-numb">
-                    <option class="value" value="20">20</option>
-                    <option class="value" value="50">50</option>
-                    <option class="value" value="100">100</option>
-                </select>
-            </div>
-        </div>
-    </main>
+          </li>
+      </ul>
+
+      <div class="holder"></div>
+      
+      <form>
+        <label>Products per page: </label>
+        <select>
+          <option>4</option>
+          <option>20</option>
+          <option>50</option>
+          <option>100</option>
+        </select>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
