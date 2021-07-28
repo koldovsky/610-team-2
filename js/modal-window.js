@@ -1,4 +1,4 @@
-let delay_popup = 4000;
+let delay_popup = 1000;
 
 setTimeout(() => document.querySelector('.modal-window').style.display = "block", delay_popup);
 
