@@ -392,7 +392,6 @@ header .grid__grade .grid__text {
 .title {
     font-size: 26px;
     line-height: 20px;
-    color: var(--secondary-color);
     font-family: var(--great-vibes-font);
 }
 
