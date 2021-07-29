@@ -364,22 +364,100 @@ header .grid__grade .grid__text {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    
 }
 .inner__item.red__wine{
     background-image: url("../img/backgrounds/background-red-wines.jpg");  
 }
 .inner__item.white__wine{
-    background-image: url("../img/backgrounds/background-white-wines.jpg");
-       
+    background-image: url("../img/backgrounds/background-white-wines.jpg");   
 }
 
- 
 .text__inner{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
+.inner_item_wrapper h3{
+    font-family: 'Prata', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+.inner_item_wrapper .bar{
+    margin-top: 10px;
+    height: 2px;
+    width: 10%;
+    background-color: var(--secondary-color);
+
+}
+.inner_item_wrapper p{
+    font-family: 'Rubik', serif;
+    font-size: 16px;
+    color: white;
+}
+.inner_item_wrapper .buttons{
+    width: 190px;
+    margin-top: 50px;
+    margin-left:30px;
+}
+.inner_item_wrapper p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.inner_item_wrapper .bar, 
+h3{
+     margin-left:30px
+    
+}
+.discount__inner{
+    overflow: inherit;
+}
+.discount_inner_text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.discount_inner_text h2{
+    font-family: 'Prata', serif;
+    font-size: 34px;
+    color: white;
+}
+.discount_inner_text .bar{
+    height: 1px;
+    width: 20%;
+    background-color:rgb(255,255,255,0.1);
+}
+.discount_inner_text p{
+    font-family: 'Rubik', serif;
+    font-size: 18px;
+    color: white;
+}
+.discount_inner_text .buttonl{
+    width: 120px;
+    height: 45px;
+}
+.discount__inner 
+h2, .bar, p{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.discount__inner a{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.discount__inner img{
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
 
 
 
