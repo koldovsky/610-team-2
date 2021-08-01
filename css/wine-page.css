@@ -5,7 +5,7 @@
     --text-color: rgb(137,128,130);
 }
 
-.pinot-noir {
+.page {
     display: flex;
     justify-content: space-around;
     padding-left: 20px;
@@ -157,7 +157,7 @@
 }
 
 @media (max-width: 768px) {
-    .pinot-noir {
+    .page {
         display: block;        
         margin-left: -30px;
     }
