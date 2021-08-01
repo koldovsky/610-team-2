@@ -1255,6 +1255,44 @@ input {
     line-height: 15px;
 }
 
+
+/* Cart */
+.shopping-bag__wrapper {
+    display: none;
+}
+  
+.shopping-bag {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+  
+.shopping-bag__icon {
+    width: 40px;
+    height: 40px;
+}
+  
+.shopping-bag__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid transparent;
+    background-color: #bb1414;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+
 @media (max-width: 1104px) {
     .features-title,
     .footer-part__title {
