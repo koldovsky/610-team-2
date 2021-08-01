@@ -502,6 +502,7 @@ h2, .bar, p{
     font-family: 'Prata', serif;
     font-weight: inherit;
     line-height: 33px;
+    padding-top: 30px;
 }
 
 .wine-name,
@@ -562,16 +563,21 @@ h2, .bar, p{
     color: var(--text-color);
 }
 
+.empty-timeless-classic {
+    width: 50%;
+}
+
 .timeless-classic {
     margin-top: 30px;
     min-height: 500px;
-    width: 370px;
+    min-width: 400px;
     height: 750px;
     line-height: 26px;
     text-align: left;
     display: block;
-    justify-content: space-evenly;
     padding: 50px 15px 150px 15px;
+    max-width: 590px;
+    margin-right: auto;
 }
 
 .timeless-classic-background {
@@ -590,10 +596,19 @@ h2, .bar, p{
 .history {
     display: block;
     text-align: left;
-    width: 370px;
+    width: 400px;
     height: 750px;
-    padding-top: 40px;
-    padding-left: 20px;
+    max-width: 1042px;
+    padding-top: 7em;
+    justify-content: center;
+    max-width: 550px;
+    margin-left: -20em;
+}
+
+.extra-history {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .history .subtitle {
@@ -607,8 +622,11 @@ h2, .bar, p{
     background-position: center;
     background-attachment: fixed;
     display: flex;
-    justify-content: right;
     width: 100%;
+}
+
+.empty-history {
+    width: 45%;
 }
 
 .play-video {
@@ -617,15 +635,16 @@ h2, .bar, p{
     font-weight: 700;
     line-height: 23px;
     display: block;
-    width: 500px;
-    margin-top: 300px;
-    margin-left: 300px;
+    width: 100%;
+    padding-top: 22em;
+    padding-left: 7em;
 }
 
 .play-button {
     width: 70px;
     height: 70px;
-    margin-left: -5px;
+    margin-left: 7px;
+    margin-bottom: 20px;
 }
 
 .shop-bottles {
@@ -646,6 +665,9 @@ h2, .bar, p{
 
 .craft-wines {
     padding-bottom: 100px;
+    max-width: 1042px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .craft-wines .subtitle {
@@ -674,7 +696,11 @@ h2, .bar, p{
     margin-top: 30px;
     display: block;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
+    max-width: 1042px;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .award {

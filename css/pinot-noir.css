@@ -74,6 +74,8 @@
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .text-div {
