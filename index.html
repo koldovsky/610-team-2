@@ -67,7 +67,7 @@
                 d="M11.94,16.73a3.44,3.44,0,0,1-2.24,1,2.45,2.45,0,0,0-.26,1.07,2.5,2.5,0,0,0,5,0,2.45,2.45,0,0,0-.23-1A3.48,3.48,0,0,1,11.94,16.73Z"></path>
             <path
                 d="M16.5,13.23a3,3,0,0,1-2-.77h0a3,3,0,0,1-2,.76h-.27a2.45,2.45,0,0,0-.23,1,2.5,2.5,0,0,0,5,0,2.45,2.45,0,0,0-.23-1Z"></path>
-            </path>
+            
         </g>
     </symbol>
 
@@ -126,15 +126,14 @@
 
     <!-- Header
 ===================== -->
-    <div class="main__page">
         <header id="main">
             <nav>
                 <div class="section">
                     <div class="logo__inner">
                         <a class="title__logo" href="index.html"><img src="img/logo.svg" alt="Logotype" width="250" height="170"></a>
                     </div>
-                    
-                    
+                    <label class="burger-icon" for="burger-checkbox">☰</label>
+                    <input type="checkbox" id="burger-checkbox">
                     <div class="nav__menu">
                         <div id="clock"></div>
                         <a href="#deals">Best Deals</a>
@@ -177,36 +176,38 @@
             </div>
             
         </header>
-    </div>
+    
 
     <main>
         <div class="grid__page">
-            <div class="grid__inner">
-                <div class="grid__events">
-                    <!-- <img src="img/backgrounds/background-phone.png" alt="a-bottle-of-wine-lies-on-the-table-with-cheese" class="grid__icon"> -->
-                    <h5 class="text__h">For Your Special Events</h5>
-                    <div class="bar"></div>
-                    <p class="grid__text">We have a great collection of exclusive reserve wines.</p>
-                    <a href="#Wines-to-Every-Table">Learn more</a>
+                <div class="grid__inner">
+                    <div class="grid__events">
+                        <div class="grid_text_inner">
+                            <h5 class="text__h">For Your Special Events</h5>
+                            <div class="bar"></div>
+                            <p class="grid__text">We have a great collection of exclusive reserve wines.</p>
+                            <a href="#Wines-to-Every-Table">Learn more</a>
+                        </div>   
+                    </div>
+                    <div class="grid__natural">
+                        <div class="grid_text_inner">                      
+                            <h5 class="text__h">100% Organic Wines</h5>
+                            <div class="bar"></div>
+                            <p class="grid__text">Only natural wine without all kinds of additives or flavors.</p>
+                            <a href="#natural">Learn more</a>
+                        </div> 
+                    </div>   
+                    <div class="grid__grade">
+                        <div class="grid_text_inner">
+                            <h5 class="text__h">Selected Grape Varieties</h5>
+                            <div class="bar"></div>
+                            <p class="grid__text">We produce and sell the finest wines made of the best grape varieties.</p>
+                            <a href="#natural">Learn more</a>
+                        </div>     
                 </div>
-                <div class="grid__natural">
-                    <!-- <img src="img/backgrounds/background-phone1.png" alt="two-glasses-are-on-the-table-with-a-variety-of-grapes" class="grid__icon"> -->
-                    <h5 class="text__h">100% Organic Wines</h5>
-                    <div class="bar"></div>
-                    <p class="grid__text">Only natural wine without all kinds of additives or flavors.</p>
-                    <a href="#What-Makes-Our-Wines-Special">Learn more</a>
-                </div>
-                <div class="grid__grade">
-                    <!-- <img src="img/backgrounds/background-phone2.png" alt="two-varieties-of-wine-and-two-varieties-of-grapes-are-on-the-table" class="grid__icon"> -->
-                    <h5 class="text__h">Selected Grape Varieties</h5>
-                    <div class="bar"></div>
-                    <p class="grid__text">We produce and sell the finest wines made of the best grape varieties.</p>
-                    <a href="#What-Makes-Our-Wines-Special">Learn more</a>
-                </div>
-
-            </div>
-        </div>    
-        <section class="w-section">
+            </div>  
+           
+        <section class="w-section" id="natural">
             <div class="feature-container">
                 <div class="w-section-header">
                     <p class="short-inscription general-title">100% natural</p>
@@ -354,7 +355,7 @@
         </div>
 
         <!-- ===Craft wines=== -->
-        <div class="craft-wines">
+        <div class="craft-wines" id="craft">
             <div class="craft-wines-text">
                 <p class="general-title title" id="shop">Craft wines</p>
                 <h3 class="general-subtitle subtitle">Our Wines</h3>
@@ -425,19 +426,21 @@
                     <div class="inner__item red__wine" >
                         <div class="text__inner">
                             <h3>Red Wines</h3>
-                                <div class="bar"></div>
+                                <div class="bars"></div>
                                 <p> Great selection of red wines for you</p>
-                                <a href=# class="buttons">Shop red wines</a>
+                                <a href=#craft class="buttons">Shop red wines</a>
                         </div>        
                     </div>
                 </div>
                 <div class="inner_item_wrapper">
                         <div class="inner__item white__wine">
-                                <h3>White Wines</h3>
-                                    <div class="bar"></div>
-                                    <p>Top white wines for any occasion.</p>
-                                    <a href=# class="buttons">Shop white wines</a>
-                    </div>               
+                                <div class="text__inner">
+                                    <h3>White Wines</h3>
+                                        <div class="bars"></div>
+                                        <p>Top white wines for any occasion.</p>
+                                        <a href=#craft class="buttons">Shop white wines</a>
+                                </div>        
+                        </div>               
                 </div>
                 
             </div>    
@@ -445,9 +448,9 @@
                     <img src="../img/backgrounds/background-of-discount.jpg" alt="&&">
                     <div class="discount_inner_text">
                         <h2>Get your 15% personal discount</h2>
-                        <div class="bar"></div>
+                        <div class="bars"></div>
                         <p>Join our club of wine-lovers and be the first to know about the special offers.</p>
-                        <a href=# class="buttonl">Join</a>
+                        <a href=#down class="buttonl">Join</a>
                     </div>
                 </div>      
         </div>
@@ -612,7 +615,7 @@
         </div>
     </div><!-- /.features  -->
     
-    <footer class="footer">
+    <footer class="footer" id="down">
         <div class="container">
             <div class="join-part">
                 <div class="join-part__inner">
@@ -727,7 +730,7 @@
     </div>
 
         <!-- Modal window -->
-    <div class="modal-window">
+    <div class="modal-window" >
         <div class="modal-window__overlay">
             <div class="modal-window__content">
                 <div class="general-subtitle">Confirm Your Age</div>
