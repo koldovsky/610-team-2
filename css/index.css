@@ -320,12 +320,9 @@ header .grid__grade .text__h {
     padding: 50px 0;
        
 } 
-
 .category__inner{
-    display:flex;
-    flex-wrap: wrap;
-    margin:  0 -15px;
-   
+    display: flex;
+    margin:  0 -15px; 
 }
 
 .inner_item_wrapper{
@@ -352,6 +349,7 @@ header .grid__grade .text__h {
 }
 
 .text__inner{
+    padding-left: 30px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -371,6 +369,7 @@ header .grid__grade .text__h {
 
 }
 .inner_item_wrapper p{
+    padding-top: 30px;
     font-family: 'Rubik', serif;
     font-size: 16px;
     color: white;
@@ -389,11 +388,13 @@ header .grid__grade .text__h {
     
 }
 .discount__inner{
+    margin-left: 30px;
     overflow: inherit;
     margin-left: 10px;
 }
 .discount_inner_text{
-    
+    display: block;
+    padding-top: 100px;
     padding-left: 40px;
     display: flex;
     flex-direction: column;
@@ -405,6 +406,7 @@ header .grid__grade .text__h {
     color: white;
 }
 .discount_inner_text .bars{
+    margin-top: 30px;
     height: 1px;
     width: 20%;
     background-color:rgb(255,255,255,0.1);
@@ -432,7 +434,8 @@ header .grid__grade .text__h {
 }
 .inner_item_wrapper{
     box-sizing: border-box;
-} 
+}
+
 
 /*Solomiya beginning*/
 :root {
