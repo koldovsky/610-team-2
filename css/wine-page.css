@@ -5,6 +5,15 @@
     --text-color: rgb(137,128,130);
 }
 
+.page {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 40px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .shop-wine-name {
     font-family: 'Prata', serif;
     font-size: 22px;
@@ -36,6 +45,7 @@
 }
 
 .number-and-button {
+    margin-top: 30px;
     display: flex;
 }
 
@@ -66,14 +76,7 @@
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     line-height: 26px;
-    margin-bottom: 30px;
-}
-
-.pinot-noir {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 30px;
+    margin: 20px;
 }
 
 .text-div {
@@ -153,15 +156,19 @@
     }
 }
 
-@media (max-width: 765px) {
-    .pinot-noir {
+@media (max-width: 768px) {
+    .page {
         display: block;        
         margin-left: -30px;
     }
 
     .img-carousel {
         max-width: 100%;
-        margin-right: -85px;
+        margin-right: 0;
+    }
+
+    .top-pic-and-arrows {
+        margin-left: 4em;
     }
 
     .text-div {
@@ -185,13 +192,6 @@
         width: 25px;
         height: 25px;
         padding-bottom: auto;
-    }
-}
-
-@media (max-width: 400px) {
-    .arrow.active {
-        width: 15px;
-        height: 15px;
     }
 }
 
@@ -273,4 +273,25 @@ input[type=number]::-webkit-inner-spin-button {
     width: 30px;
 	height: 30px;
     padding-bottom: 40%;
+}
+
+@media (max-width: 520px) {
+    .arrow{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 367px) {
+    .arrow{
+        width: 10px;
+        height: 10px;
+    }
 }

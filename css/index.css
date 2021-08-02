@@ -380,12 +380,11 @@ header .grid__grade .text__h {
     margin-top: 50px;
     margin-left:30px;
 }
-.inner_item_wrapper p{
+.inner_item_wrapper {
     margin-top: 30px;
     margin-left: 30px;
 }
-.inner_item_wrapper .bars, 
-h3{
+.inner_item_wrapper .bar{
      margin-left:30px
     
 }
@@ -420,8 +419,7 @@ h3{
     width: 120px;
     height: 45px;
 }
-.discount__inner 
-h2, .bars, p{
+.discount__inner, .bar{
     margin-top: 50px;
     /* margin-left: 40px; */
 }
@@ -476,6 +474,7 @@ h2, .bars, p{
     font-family: 'Prata', serif;
     font-weight: inherit;
     line-height: 33px;
+    padding-top: 30px;
 }
 
 .wine-name,
@@ -536,16 +535,21 @@ h2, .bars, p{
     color: var(--text-color);
 }
 
+.empty-timeless-classic {
+    width: 50%;
+}
+
 .timeless-classic {
     margin-top: 30px;
     min-height: 500px;
-    width: 370px;
+    min-width: 400px;
     height: 750px;
     line-height: 26px;
     text-align: left;
     display: block;
-    justify-content: space-evenly;
     padding: 50px 15px 150px 15px;
+    max-width: 590px;
+    margin-right: auto;
 }
 
 .timeless-classic-background {
@@ -564,25 +568,37 @@ h2, .bars, p{
 .history {
     display: block;
     text-align: left;
-    width: 370px;
+    width: 400px;
     height: 750px;
-    padding-top: 40px;
-    padding-left: 20px;
+    max-width: 1042px;
+    padding-top: 7em;
+    justify-content: center;
+    max-width: 550px;
+    margin-left: -20em;
+}
+
+.extra-history {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .history .subtitle {
     font-size: 71px;
     line-height: 85px;
 }
-
+    
 .history-background {
     background-image: url("../img/backgrounds/background-history.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     display: flex;
-    justify-content: right;
     width: 100%;
+}
+
+.empty-history {
+    width: 45%;
 }
 
 .play-video {
@@ -591,15 +607,16 @@ h2, .bars, p{
     font-weight: 700;
     line-height: 23px;
     display: block;
-    width: 500px;
-    margin-top: 300px;
-    margin-left: 300px;
+    width: 100%;
+    padding-top: 22em;
+    padding-left: 7em;
 }
 
 .play-button {
     width: 70px;
     height: 70px;
-    margin-left: -5px;
+    margin-left: 7px;
+    margin-bottom: 20px;
 }
 
 .shop-bottles {
@@ -620,6 +637,9 @@ h2, .bars, p{
 
 .craft-wines {
     padding-bottom: 100px;
+    max-width: 1042px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .craft-wines .subtitle {
@@ -648,7 +668,11 @@ h2, .bars, p{
     margin-top: 30px;
     display: block;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
+    max-width: 1042px;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .award {
@@ -1151,7 +1175,7 @@ input {
     top: 0;
     width: 100%;
     height: 100%;
-    display: none;
+    display: block;
 }
   
 .modal-window__overlay {
@@ -1228,6 +1252,44 @@ input {
     font-weight: 500;
     line-height: 15px;
 }
+
+
+/* Cart */
+.shopping-bag__wrapper {
+    display: none;
+}
+  
+.shopping-bag {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+  
+.shopping-bag__icon {
+    width: 40px;
+    height: 40px;
+}
+  
+.shopping-bag__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid transparent;
+    background-color: #bb1414;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
 
 @media (max-width: 1104px) {
     .features-title,
