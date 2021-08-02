@@ -613,10 +613,6 @@ header .grid__grade .grid__text {
     font-size: 71px;
     line-height: 85px;
 }
-
-.wine-bottles-thematic-picture img {
-    width: 100%;
-}
     
 .history-background {
     background-image: url("../img/backgrounds/background-history.webp");
